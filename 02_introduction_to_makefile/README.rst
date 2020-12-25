@@ -40,7 +40,7 @@ Simple makefile consists of rules with the follwoing shape
 ----------------------
 
 
-This is `straightforward_makefile`
+This is straightforward_makefile_.
    - NAME:      ``edit``
    - Objects:   8 files (all c file includes ``def.h``)
    - headers:   3 files
