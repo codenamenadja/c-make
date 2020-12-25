@@ -33,7 +33,6 @@ Simple makefile consists of rules with the follwoing shape
    A rule can also expain how and when to carry out an action.
 
 .. note::
-
    recipe prefix with <TAB> but can be subsitute it, use ``.RECIPEPREFIX`` variable to an alternative.
 
 02-2_A_Simple_Makefile
