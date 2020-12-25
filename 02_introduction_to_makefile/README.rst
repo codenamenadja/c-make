@@ -46,5 +46,5 @@ This is straightforward_makefile_.
    - headers:   3 files
 
 
-_straightforward_makefile: src/02-2_simple_makefile
+.. _straightforward_makefile: src/02-2_simple_makefile
 
