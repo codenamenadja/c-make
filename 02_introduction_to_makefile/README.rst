@@ -33,17 +33,23 @@ Simple makefile consists of rules with the follwoing shape
    A rule can also expain how and when to carry out an action.
 
 .. note::
+
    recipe prefix with <TAB> but can be subsitute it, use ``.RECIPEPREFIX`` variable to an alternative.
 
 02-2_A_Simple_Makefile
 ----------------------
-
 
 This is straightforward_makefile_.
    - NAME:      ``edit``
    - Objects:   8 files (all c file includes ``def.h``)
    - headers:   3 files
 
+**running some target on make**::
+   1. When target is a file? (ye)
+   #. prerequisite of file change? (ye)
+   #. recompile and relink!
+ 
+In addtion, any prerequisite
 
 .. _straightforward_makefile: src/02-2_simple_makefile
 
