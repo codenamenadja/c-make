@@ -39,17 +39,36 @@ Simple makefile consists of rules with the follwoing shape
 02-2_A_Simple_Makefile
 ----------------------
 
-This is straightforward_makefile_.
+**This is straightforward_makefile_**
    - NAME:      ``edit``
    - Objects:   8 files (all c file includes ``def.h``)
    - headers:   3 files
 
-**running some target on make**::
+**running some target on make**
    1. When target is a file? (ye)
    #. prerequisite of file change? (ye)
    #. recompile and relink!
  
-In addtion, any prerequisite
-
 .. _straightforward_makefile: src/02-2_simple_makefile
+.. note::
 
+   ``:`` means target, ``=`` means variable.
+
+02-5_Letting_make_deduce_the_recipes
+------------------------------------
+
+Implicit rule for c in make 
+   update ``.o`` file from corresponding ``.c`` file using ``cc -c`` command.
+
+Here is ``.c`` omitted_rule_makefile_.
+
+.. _omitted_rule_makefile: src/02-5_deduce_the_recipes_makefile
+
+02-6_Another_style_of_makefile
+------------------------------
+
+In this another_style_of_makefile_,
+you group entries by their prerequisites
+instead of by their targets.
+
+.. _another_style_of_makefile: src/02-6_shorter_makefile
