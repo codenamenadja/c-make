@@ -1,14 +1,14 @@
-OBJECTS=	main.o kbd.o command.o display.o \
+OBJECTS= main.o kbd.o command.o display.o \
 insert.o search.o files.o utils.o
 
 .DEFAULT_GOAL: edit
 
-edit:		$(OBJECTS)
+edit: $(OBJECTS)
 	cc -o edit $^
 
-$(OBJECTS):								defs.h
-kbd.o command.o files.o:				command.h
-display.o insert.o search.o files.o:	buffer.h
+$(OBJECTS): defs.h
+kbd.o command.o files.o: command.h
+display.o insert.o search.o files.o: buffer.h
 
 .PHONY: clean
 clean:
